@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpFeature</title>
+    <style>
+        body{
+            background-color: gray;
+            cursor: pointer;
+        }
+        body:hover{
+            background-color: black;
+            transition: all ease-in-out 1s;
+        }
+        body:after{
+            background-color: black;
+        }
+        .div{
+            margin-top: 50%;
+            margin-bottom: 50%;
+        }
+        .btn{
+            padding: 22px 44px;
+            border-color: cadetblue;
+            background-image: linear-gradient(to right, rgb(56, 191, 233), rgb(26, 93, 218));
+            border-radius: 33px;
+            font-family: Poppins;
+            font-size: 23px;
+            cursor: pointer;
+            transition: all ease-in-out .8s;
+        }
+
+        .btn:hover{
+            padding: 22px 160px;
+            border-radius: 66px;
+            border-color: slateblue;
+            background-image: linear-gradient(to right,  rgb(26, 93, 218), rgb(56, 191, 233));
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="div">
+        <button class="btn">BUTTON</button>
+    </div>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=lqrsljcHjWPPnbTbSLgcLbFsfsXrPWDrXPfBkMFqbtPnWMvkbFkgxkCdknXqppsMRjfRrZHhzLChgNhrT">This is the link</a>
+    </center>
+    <script>
+        var pressedBtn = document.getElementsByClassName('btn')[0];
+        pressedBtn.addEventListener("click", function (event){
+            alert("A Humble Message from Gaurang......."); alert("Paani Ki Tanki Bhar Gayi Hai Kipya Motor Ban Kar De"); alert("ANd One more question........");  alert("Chutiya Hai Kya Bhosdike....?"); alert("SCROLL DOWN AND CLICK THE LINK GIVEN BELOW FOR ANSWER");
+        })
+    </script>
+</body>
+</html>
